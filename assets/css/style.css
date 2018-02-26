@@ -10,7 +10,7 @@ html {
 body {
   background: #fff;
   font: 400 12px/1.8 "Open Sans", sans-serif;
-  color: #666;
+  color: #111;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -127,7 +127,7 @@ a,
 
 .fa-icons > div {
   padding: 0;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #;
   margin: -1px 0 0 -1px;
   font-size: 13px;
 }
@@ -244,11 +244,11 @@ a,
 .bg-dark-30 .alt-module-subtitle h5,
 .bg-dark-60 .alt-module-subtitle h5,
 .bg-dark-90 .alt-module-subtitle h5 {
-  color: #fff;
+  color: #111;
 }
 
 .bg-dark {
-  background: #111;
+  background: #FACC2E;
 }
 
 .bg-dark-30:before {
@@ -864,7 +864,7 @@ a:hover, a:focus {
 }
 
 .bg-dark a {
-  color: #aaa;
+  color: #2e2e2e;
 }
 
 .bg-dark a:hover, .bg-dark a:focus {
@@ -1552,7 +1552,7 @@ Google map
 .alt-features-icon {
   line-height: 1.2;
   font-size: 42px;
-  color: #111;
+  color: #facc2e;
 }
 
 .features-title,
@@ -2019,13 +2019,13 @@ Google map
 	Call to action
 --------------------------------------------------------------*/
 .callout-text {
-  color: rgba(255, 255, 255, 0.6);
+  color: #111;
 }
 
 .callout-title {
   font-weight: 400;
   font-size: 16px;
-  color: #fff;
+  color: #111;
   margin: 0;
 }
 
