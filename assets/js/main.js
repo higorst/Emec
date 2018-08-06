@@ -90,7 +90,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                 if (homeSection.hasClass('home-full-height')) {
                     homeSection.height($(window).height());
                 } else {
-                    homeSection.height($(window).height() * 0.85);
+                    homeSection.height($(window).height() * 0.95);
                 }
             }
         }
@@ -327,7 +327,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             $(this).appear(function() {
                 var percent = $(this).attr('aria-valuenow');
                 $(this).animate({'width' : percent + '%'});
-                $(this).find('span').animate({'opacity' : 1}, 900);
+                $(this).find('span').animate({'opacity' : 0}, 900);
                 $(this).find('span').countTo({from: 0, to: percent, speed: 900, refreshInterval: 30});
             });
         });
