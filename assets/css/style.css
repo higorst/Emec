@@ -169,7 +169,7 @@ a,
   background-size: cover;
 }
 
-/* Module header */
+/* Module  */
 .module-small {
   padding: 40px 0;
 }
@@ -933,7 +933,7 @@ blockquote {
   margin-top: -35px;
 }
 
-/* Restaurant module header */
+/* Restaurant module  */
 .alt-module-subtitle {
   display: table;
 }
@@ -945,7 +945,7 @@ blockquote {
   color: #111;
 }
 
-/* Finance case study header */
+/* Finance case study  */
 .finance-image-content {
   border: 1px solid #e5e5e5;
   padding: 60px 0px;
@@ -979,7 +979,7 @@ blockquote {
 }
 
 /*  Special Portfolio Page  */
-.special-portfolio-header-title {
+.special-portfolio--title {
   border: 1px solid rgba(255, 255, 255, 0.7);
   font-size: 50px;
   padding: 40px 0px;
@@ -1366,14 +1366,14 @@ General Styles - Owlcarousel
 	margin-top: -20px;
 }*/
 /*--------------------------------------------------------------
-	Header
+	
 --------------------------------------------------------------*/
 .home-section {
   position: relative;
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 100%;
+    width: 100%;
   z-index: 0;
   background-size: cover;
 }
@@ -1401,72 +1401,72 @@ General Styles - Owlcarousel
   font-size: 48px;
 }
 
-/* Agency Page Header */
-.agency-page-header:before {
+/* Agency Page  */
+.agency-page-:before {
   background: transparent;
 }
 
-/* About us Page Header */
-.about-page-header:before {
+/* About us Page  */
+.about-page-:before {
   background: rgba(2, 2, 2, 0.2);
 }
 
-/* Service Page Header */
-.service-page-header:before {
+/* Service Page  */
+.service-page-:before {
   background: rgba(2, 2, 2, 0.1);
 }
 
-/* Pricing Page Header */
-.pricing-page-header {
+/* Pricing Page  */
+.pricing-page- {
   background-position: 40% 14%;
   background-repeat: no-repeat;
 }
 
-.pricing-page-header:before {
+.pricing-page-:before {
   background: rgba(2, 2, 2, 0.6);
 }
 
-/* Gallery Page Header */
-.gallery-page-header {
+/* Gallery Page  */
+.gallery-page- {
   background-position: 50% 0%;
   background-repeat: no-repeat;
 }
 
-.gallery-page-header:before {
+.gallery-page-:before {
   background: rgba(2, 2, 2, 0.2);
 }
 
-/* Contact Page Header */
-.contact-page-header {
+/* Contact Page  */
+.contact-page- {
   background-position: 13% 45%;
   background-repeat: no-repeat;
 }
 
-.contact-page-header:before {
+.contact-page-:before {
   background: rgba(2, 2, 2, 0.5);
 }
 
-/* FAQ Page Header */
-.faq-page-header:before {
+/* FAQ Page  */
+.faq-page-:before {
   background: rgba(2, 2, 2, 0.15);
 }
 
-/* Blog Page Header */
-.blog-page-header {
+/* Blog Page  */
+.blog-page- {
   background-position: 50% 24%;
   background-repeat: no-repeat;
 }
 
-.blog-page-header:before {
+.blog-page-:before {
   background: rgba(2, 2, 2, 0.3);
 }
 
-/* Restaurant menu Page Header */
+/* Restaurant menu Page  */
 .restaurant-menu-bg:before {
   background: rgba(2, 2, 2, 0.4);
 }
 
-.restaurant-page-header:before {
+.restaurant-page-:before {
   background: rgba(0, 0, 0, 0.45);
 }
 
@@ -1474,17 +1474,17 @@ General Styles - Owlcarousel
   background-color: rgba(2, 2, 2, 0.25);
 }
 
-/* Portfolio Page Header */
-.portfolio-page-header {
+/* Portfolio Page  */
+.portfolio-page- {
   background-position: 50% 50%;
 }
 
-.portfolio-page-header:before {
+.portfolio-page-:before {
   background: rgba(45, 45, 45, 0.45);
 }
 
-/* Landing Page Header */
-.landing-header:before {
+/* Landing Page  */
+.landing-:before {
   position: absolute;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(119, 47, 109, 0.52) 95%, rgba(115, 35, 105, 0.58) 100%);
   content: " ";
@@ -1498,7 +1498,7 @@ General Styles - Owlcarousel
   margin-top: -145px;
 }
 
-.shop-page-header:before {
+.shop-page-:before {
   background: rgba(34, 34, 34, 0.3);
 }
 
@@ -2160,7 +2160,7 @@ Google map
   margin: 0;
 }
 
-.post-header {
+.post- {
   margin: 0 0 15px;
 }
 
@@ -2200,7 +2200,7 @@ Google map
   margin: 0 0 60px;
 }
 
-.post-columns .post-header {
+.post-columns .post- {
   margin: 0 0 10px;
 }
 
@@ -2601,7 +2601,7 @@ Google map
 /*--------------------------------------------------------------
 	Showcase Page
 --------------------------------------------------------------*/
-.showcase-page .showcase-page-header {
+.showcase-page .showcase-page- {
   background-color: rgba(2, 2, 2, 0.7);
 }
 
@@ -2754,7 +2754,7 @@ Google map
   .navbar-custom {
     letter-spacing: 0;
   }
-  /* Headers */
+  /* s */
   .titan-title-size-3 {
     letter-spacing: 8px;
     font-size: 36px;
@@ -2787,11 +2787,11 @@ Google map
   .navbar-custom li > a:hover {
     background: rgba(255, 255, 255, 0.1) !important;
   }
-  .navbar-custom .navbar-nav .open .dropdown-menu .dropdown-header,
+  .navbar-custom .navbar-nav .open .dropdown-menu .dropdown-,
   .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
     padding: 10px 25px;
   }
-  .navbar-custom .navbar-nav .open .dropdown-menu .dropdown-menu .dropdown-header,
+  .navbar-custom .navbar-nav .open .dropdown-menu .dropdown-menu .dropdown-,
   .navbar-custom .navbar-nav .open .dropdown-menu .dropdown-menu > li > a {
     padding: 10px 35px;
   }
@@ -2839,7 +2839,7 @@ Google map
     padding: 0;
     margin-left: 0;
   }
-  /* Headers */
+  /* s */
   .titan-title-size-1 {
     letter-spacing: 2px;
     font-size: 14px;
