@@ -232,6 +232,7 @@ a,
 .bg-dark-30,
 .bg-dark-60,
 .bg-dark-90,
+.bg-dark-100,
 .bg-dark .module-title,
 .bg-dark-30 .module-title,
 .bg-dark-60 .module-title,
@@ -274,6 +275,16 @@ a,
 .bg-dark-90:before {
   position: absolute;
   background: rgba(34, 34, 34, 0.9);
+  content: " ";
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.bg-dark-100:before {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.9);
   content: " ";
   height: 100%;
   width: 100%;
@@ -1373,9 +1384,9 @@ General Styles - Owlcarousel
   background-color: white;
   background-repeat: no-repeat;
   background-position: center center;
-    width: 100%;
-  z-index: 0;
+  height: 100vh;
   background-size: cover;
+  padding-bottom: 10%;
 }
 
 .titan-title-size-1 {
